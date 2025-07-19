@@ -1,0 +1,4 @@
+
+Este test varia la frecuencia del PWM, primero inicializa la variable pulse = period/2 (50% duty cycle) mediante la funcion "setPWM(htim3, TIM_CHANNEL_1, period, period/2)", posteriormente se modifica el periodo desde PERIOD/4 hasta PERIOD/2.
+
+Esto produce un cambio gradual de la frecuencia de PWM, sin cambiar el brillo del LED 

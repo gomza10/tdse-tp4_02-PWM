@@ -80,7 +80,7 @@ void test1_tick() {
 	}
 
 	if (HAL_GetTick()>=tick) {
-		setPWM(htim3, TIM_CHANNEL_1, period, active);
+		setPWM(htim3, TIM_CHANNEL_1, period, active); //se modifica el duty cicle mediante active
 		if (step>0) {
 			if (period-step<=active) {
 				step = step * -1;

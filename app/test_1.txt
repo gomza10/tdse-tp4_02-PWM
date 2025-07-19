@@ -1,0 +1,3 @@
+Se genera una señal PWM de periodo = PERIOD, mediante la función "setPWM(htim3, TIM_CHANNEL_1, period, active)", 
+luego se va modificando el duty cycle de la señal dado por la variable active mediante la siguiente linea "active = active + step".
+Esta variación debe producir un cambio gradual de intensidad en el LED.
